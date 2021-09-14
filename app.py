@@ -5,8 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 url = "https://clubetudiants.ma/post/cours/-EMI-Exemples-des-anciens-concours"
 # url = "https://clubetudiants.ma/exemple-des-anciens-concours/ecoles"
-email = "haidaouiissam@gmail.com"
-psw = "issampop"
+email = "email_here"
+psw = "pasword_here"
 driver = webdriver.Chrome(executable_path="C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe")
 driver.get(url)
 
